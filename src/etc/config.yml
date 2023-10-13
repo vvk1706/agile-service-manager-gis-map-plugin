@@ -12,7 +12,7 @@
 #     The https port used by the mapping app to serve the application.
 #     Default value: 3443
 #=======================================================================================================
-webServerPort: 8000
+webServerPort: 3000
 webServerSecurePort: 8443
 
 #=======================================================================================================
