@@ -12,8 +12,8 @@
 #     The https port used by the mapping app to serve the application.
 #     Default value: 3443
 #=======================================================================================================
-webServerPort: 3000
-webServerSecurePort: 3443
+webServerPort: 8000
+webServerSecurePort: 8443
 
 #=======================================================================================================
 #               Connection information for the ASM topology service REST API.
@@ -52,11 +52,11 @@ webServerSecurePort: 3443
 #     Default value: /1.0/
 #
 #=======================================================================================================
-proxyServiceHost: localhost
+proxyServiceHost: netcool-evtmanager.d-aiops372-au-syd-1-bx2-1-2c209e143dda1c828a5406f003de28fd-0000.au-syd.containers.appdomain.cloud
 proxyServicePort: 443
 proxyServiceTenantId: cfd95b7e-3bc7-4006-a4a8-a73a79c71255
-proxyServiceUsername: asm
-proxyServicePassword: asm
+proxyServiceUsername: emanager-topology-eventmanager-user
+proxyServicePassword: 7GvIsWOhUt+MaQ102aJCiW870ASKmHK6wmWyu5aMQi4=
 proxyServiceRootPath: /1.0/
 
 #=======================================================================================================
@@ -67,7 +67,7 @@ proxyServiceRootPath: /1.0/
 #     Default value: https://localhost/aiops/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/topology-viewer
 #
 #=======================================================================================================
-asmUIURL: https://localhost/aiops/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/topology-viewer
+asmUIURL: https://netcool-evtmanager.d-aiops372-au-syd-1-bx2-1-2c209e143dda1c828a5406f003de28fd-0000.au-syd.containers.appdomain.cloud/aiops/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/topology-viewer
 
 
 #=======================================================================================================
