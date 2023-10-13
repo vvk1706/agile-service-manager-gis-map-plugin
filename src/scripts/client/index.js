@@ -30,14 +30,8 @@ import addWeatherLayers from './addWeatherLayers';
         maxClusterRadius: 120
     });
 
-/*    var map = L.map('map', {
-        center: [51.505, -0.09],
-        zoom: 11,
-        layers: [wikimedia]
-    });
-*/
     var map = L.map('map', {
-        center: [-33.86, 151.20],
+        center: [ -33, 151],
         zoom: 11,
         layers: [openStreetMapLayer]
     });
