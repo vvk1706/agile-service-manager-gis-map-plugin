@@ -52,7 +52,7 @@ webServerSecurePort: 8443
 #     Default value: /1.0/
 #
 #=======================================================================================================
-proxyServiceHost: netcool-evtmanager.d-aiops372-au-syd-1-bx2-1-2c209e143dda1c828a5406f003de28fd-0000.au-syd.containers.appdomain.cloud
+proxyServiceHost: evtmanager-topology.eventmanager.d-aiops372-au-syd-1-bx2-1-2c209e143dda1c828a5406f003de28fd-0000.au-syd.containers.appdomain.cloud
 proxyServicePort: 443
 proxyServiceTenantId: cfd95b7e-3bc7-4006-a4a8-a73a79c71255
 proxyServiceUsername: emanager-topology-eventmanager-user
@@ -67,7 +67,7 @@ proxyServiceRootPath: /1.0/
 #     Default value: https://localhost/aiops/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/topology-viewer
 #
 #=======================================================================================================
-asmUIURL:  https://netcool-evtmanager.d-aiops372-au-syd-1-bx2-1-2c209e143dda1c828a5406f003de28fd-0000.au-syd.containers.appdomain.cloud/aiops/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/federated/topology-viewer?resourceId={RESOURCE_ID}
+asmUIURL:  https://netcool-evtmanager.d-aiops372-au-syd-1-bx2-1-2c209e143dda1c828a5406f003de28fd-0000.au-syd.containers.appdomain.cloud/aiops/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/federated/topology-viewer
 
 
 #=======================================================================================================
@@ -125,7 +125,9 @@ tooltipProperties: ''
 #     Specify if composite resources are using in the map location requests to ASM
 #     Default value: true
 #=======================================================================================================
-locationEntityTypes:  location
+locationEntityTypes:  railStation,undergroundStation,interchangeStation
+
+#locationEntityTypes:  location
 longitudePropertyNames: longitude
 latitudePropertyNames: latitude
 affectedRadiusPropertyNames: ''
