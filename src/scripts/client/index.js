@@ -31,10 +31,15 @@ import addWeatherLayers from './addWeatherLayers';
     });
 
     var map = L.map('map', {
-        center: [ -33.86, 151.20],
+        center: [ -37.8136, 144.9631],
         zoom: 11,
         layers: [openStreetMapLayer]
     });
+
+    // Melbourne   37.8136° S, 144.9631° E
+    // Sydney      33.8688° S, 151.2093° E
+    // Brisbane    27.4705° S, 153.0260° E
+    // Rockhampton 23.3786° S, 150.5089° E
 
     // Create marker groups for each location type
     const markerTypes = {};
