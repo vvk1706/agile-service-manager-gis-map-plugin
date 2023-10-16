@@ -31,7 +31,7 @@ import addWeatherLayers from './addWeatherLayers';
     });
 
     var map = L.map('map', {
-        center: [ -27.4705, 153.0260],
+        center: [ -23.3786, 150.5089],
         zoom: 11,
         layers: [openStreetMapLayer]
     });
