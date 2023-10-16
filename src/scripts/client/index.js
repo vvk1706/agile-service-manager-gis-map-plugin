@@ -18,20 +18,20 @@ import addWeatherLayers from './addWeatherLayers';
 (function() {
     const configParams = processUrlOptions();
     // Pull the map tiles from wikimedia
-/*    var wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}@2x.png', {
+    var wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}@2x.png', {
         attribution: 'Wikimedia maps beta | &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
         maxZoom: 19,
         maxClusterRadius: 120
     });
-*/
-    var openStreetMapLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+
+      var openStreetMapLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '© OpenStreetMap',
         maxClusterRadius: 120
     });
 
     var map = L.map('map', {
-        center: [ -33.8688, 151.2093],
+        center: [ 51.5072, 0.1276],
         zoom: 11,
         layers: [openStreetMapLayer]
     });
