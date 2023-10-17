@@ -125,7 +125,7 @@ tooltipProperties: ''
 #     Specify if composite resources are using in the map location requests to ASM
 #     Default value: true
 #=======================================================================================================
-locationEntityTypes:  railStation,undergroundStation,interchangeStation
+locationEntityTypes:  railStation,undergroundStation,interchangeStation,nsw-rw-station,vic-rw-station,qld-rw-station
 
 #locationEntityTypes:  location
 longitudePropertyNames: longitude
