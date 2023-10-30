@@ -125,7 +125,8 @@ tooltipProperties: ''
 #     Specify if composite resources are using in the map location requests to ASM
 #     Default value: true
 #=======================================================================================================
-locationEntityTypes:  railStation,undergroundStation,interchangeStation,nsw-rw-station,nsw-m-station,vic-rw-station,qld-rw-station,Train
+locationEntityTypes:  nsw-rw-station,nsw-m-station,vic-rw-station,qld-rw-station,Train,Car,component
+#locationEntityTypes:  railStation,undergroundStation,interchangeStation,nsw-rw-station,nsw-m-station,vic-rw-station,qld-rw-station,Train
 #locationEntityTypes:  nsw-rw-station,nsw-m-station,vic-rw-station,qld-rw-station
 
 #locationEntityTypes:  location
